@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Just for you 🌷" />
+    <meta
+      property="og:description"
+      content="I’ve been wanting to ask you something 💛"
+    />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/assets/preview.jpg"
+    />
+
+    <title>Just for you 🌷</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <video
+        id="mainVideo"
+        src="assets/love.mp4"
+        style="display: none"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+
+      <img
+        id="mainGif"
+        src="assets/happy.gif"
+        alt="happy"
+        style="display: none"
+      />
+
+      <h2 id="question">Can I ask you something?</h2>
+
+      <div class="buttons">
+        <button id="yesBtn">Yes</button>
+        <button id="noBtn">No</button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+      (function () {
+        emailjs.init("VZE4fAOW3eekzYBqo");
+      })();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
