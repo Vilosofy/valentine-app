@@ -102,7 +102,7 @@ function resetButtons() {
   noBtn.style.transition = "transform 0.4s ease";
   noBtn.style.transform = "translate(0px, 0px)";
 
-  yesWidth = 120;
+  yesWidth = 80;
   yesHeight = 44;
   yesBtn.style.width = `${yesWidth}px`;
   yesBtn.style.height = `${yesHeight}px`;
