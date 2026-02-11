@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  width: fit-content;
+  width: 100%;
   max-width: 500px;
   text-align: center;
 
@@ -166,9 +166,5 @@ h2 {
   #mainVideo,
   #mainGif {
     max-width: 240px;
-  }
-
-  .container {
-    width: 100%;
   }
 }
