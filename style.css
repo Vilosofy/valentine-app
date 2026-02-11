@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   margin: 0;
   padding: 16px;
 }
@@ -152,6 +153,10 @@ h2 {
 }
 
 @media (max-width: 400px) {
+  body {
+    min-height: fit-content;
+  }
+
   h2 {
     font-size: 18px;
   }
